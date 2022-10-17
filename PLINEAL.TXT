@@ -1,0 +1,24 @@
+MIN 1000YA + 2000YB + 1000YC + 1000YD + 1000YE + 500YF + 2000YG + 3000YH
+ST
+YA <= 1
+YB <= 2
+YC <= 1
+YD <= 1
+YE <= 2
+YF <= 1
+YG <= 3
+YH <= 1
+
+XO = 0
+XA - XO + YA>= 2 
+XB - XO + YB>= 3
+XC - XA + YC>= 2 
+XD - XB + YD>= 4
+XE - XC + YE>= 4
+XF - XC + YF>= 3
+XG - XD + YG>= 5
+XG - XE + YG>= 5  
+XH - XF + YH>= 2
+XH - XG + YH>= 2 
+XT - XH >= 0
+XT <= 12
